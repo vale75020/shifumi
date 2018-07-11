@@ -1,0 +1,62 @@
+body {
+  background-color:cornflowerblue
+}
+
+.janken {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 64px;
+}
+
+.pl {
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin:auto;
+}
+
+.ed {
+  text-align: center;
+  width: 700px;
+  height: 500px;
+  background-image: url("./back.jpg");
+  background-size: cover;
+  display: block;
+  margin: auto;
+  background-position: center;
+
+}
+
+
+
+h4 {
+  font-size: 50px;
+  color:white
+}
+
+.img{
+  width: 200px;
+  height: 200px;
+}
+
+.player{
+  width: 200px;
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  display: block;
+  margin:auto;
+}
+
+#butt{
+  color:green;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  color: green;
+  text-align: center;
+}
